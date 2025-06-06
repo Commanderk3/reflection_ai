@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 
 # Configuration
-FASTAPI_URL = "http://127.0.0.1:8000"  # Make sure your FastAPI is running
+FASTAPI_URL = "https://reflection-ai.onrender.com"  # Make sure your FastAPI is running
 
 # Initialize session state
 if "messages" not in st.session_state:
